@@ -1,0 +1,15 @@
+%%-*- mode: erlang -*-
+{application, rainbow_unicorns,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  riak_core
+                 ]},
+  {mod, { rainbow_unicorns_app, []}},
+  {env, []}
+ ]}.
+%% vim: set filetype=erlang tabstop=2

@@ -1,0 +1,10 @@
+*.beam
+.eunit
+deps/*
+apps/rainbow_unicorns/ebin
+*~
+dev/*
+doc/*
+rel/
+ebin/*.beam
+
